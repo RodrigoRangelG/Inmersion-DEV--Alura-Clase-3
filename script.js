@@ -20,7 +20,7 @@ listaPeliculas[3] = "https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi0
 listaPeliculas[4] = "https://musicart.xboxlive.com/7/37991100-0000-0000-0000-000000000002/504/image.jpg";
 
 //Nombres de peliculas
-var nombrePeliculas = ["V de Venganza","Coach Carter","Your Name","Fight Club","Soy Leyenda"]
+var nombrePeliculas = ["V de Vendetta","Coach Carter","Your Name","Fight Club","Soy Leyenda"]
 
 for(var i=0;i<listaPeliculas.length;i++){
     if(!isImage(listaPeliculas[i]))
@@ -32,7 +32,7 @@ for(var i=0;i<listaPeliculas.length;i++){
 for(var i = 0; i < listaPeliculas.length ; i++){
     document.write("<span style='display: inline-block; text-align: center; margin: 10px;'>");
     document.write("<img src =" + listaPeliculas[i] + ">");
-    document.write("<p>" + nombrePeliculas[i] + "</p>");
+    document.write('<p style="color:white">' + nombrePeliculas[i] + "</p>");
     document.write("</span>");
 }
 
@@ -45,7 +45,7 @@ var i = 0;
 while(i < listaPeliculas.length){
     document.write("<span style='display: inline-block; text-align: center; margin: 10px;'>");
     document.write("<img src =" + listaPeliculas[i] + ">");
-    document.write("<p>" + nombrePeliculas[i] + "</p>");
+    document.write('<p style="color:white">' + nombrePeliculas[i] + "</p>");
     document.write("</span>");
     i++;
 }
